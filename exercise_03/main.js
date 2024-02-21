@@ -1,4 +1,4 @@
-var personname = "Asad miskeen";
-console.log(personname.toLowerCase());
-console.log(personname.toUpperCase());
-console.log(personname.replace(/\b\w/g, function (character) { return character.toUpperCase(); }));
+var PersonName = "asad Miskeen";
+console.log(PersonName.toLowerCase());
+console.log(PersonName.toUpperCase());
+console.log(PersonName.replace(/\b\w/g, function (char) { return char.toUpperCase(); }));
